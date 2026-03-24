@@ -117,13 +117,10 @@ gym-membership-dashboard/
 ├── tailwind.config.js
 └── vite.config.js
 
+🌐 Live Demo
+https://img.shields.io/badge/%F0%9F%9A%80_View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white
 
-## 🌐 Live Demo
-
-[![Live Demo](https://img.shields.io/badge/🚀_View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gym-membership-dashboard.vercel.app)
-
-
-Note: After deployment, replace the URL above with your actual live link.
+Live URL: https://gym-membership-dashboard.vercel.app
 
 🤝 Contributing
 Contributions are welcome! Please follow these steps:
@@ -168,7 +165,7 @@ GitHub: @djriad157764-creator
 
 Email: djriad157764@gmail.com
 
-Project Link: [https://gym-membership-dashboard.vercel.app/]
+Project Link: https://gym-membership-dashboard.vercel.app
 
 🙏 Acknowledgments
 Recharts for amazing charting library
