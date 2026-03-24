@@ -3,7 +3,7 @@
 A modern gym membership management dashboard with pricing cards and interactive charts. Track membership growth, revenue, retention rates, and student performance all in one place.
 
 ![Dashboard Preview](https://raw.githubusercontent.com/djriad157764-creator/gym-membership-dashboard/main/src/assets/gym.avif)
-()
+
 
 ## ✨ Features
 
@@ -51,6 +51,9 @@ npm run build
 
 # Preview production build
 npm run preview
+
+
+
 📈 Data Structure
 Membership Data
 javascript
