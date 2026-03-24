@@ -1,0 +1,175 @@
+/* animation  */
+/* left right animation */
+.right-to-left {
+  animation: right 1s ease-out forwards;
+}
+.left-to-right {
+  animation: left 1s ease-out forwards;
+}
+
+/* zooming animation */
+.animate-zoom {
+  animation: zoomIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-zoom,
+.right-to-left,
+.left-to-right {
+  will-change: transform, opacity;
+}
+
+/* fade animation */
+.animate-fade-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+.animate-fade-down {
+  animation: fadeInDown 0.8s ease-out forwards;
+}
+.animate-fade-up-down {
+  animation: fadeInUpDown 0.8s ease-out forwards;
+}
+
+/* fade keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUpDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ @keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes right {
+  from {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes left {
+  from {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* animation delay  */
+.delay-1 {
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+.delay-2 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+.delay-3 {
+  animation-delay: 0.6s;
+  opacity: 0;
+}
+
+.delay-4 {
+  animation-delay: 0.7s;
+  opacity: 0;
+}
+.delay-5 {
+  animation-delay: 0.8s;
+  opacity: 0;
+}
+.delay-6 {
+  animation-delay: 0.9s;
+  opacity: 0;
+}
+.delay-7 {
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Optional: Add infinite pulse class */
+.animate-pulse {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulsePlus {
+  0%,
+  100% {
+    transform: scale(0.999);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Optional: Add single pulse class */
+.animate-pulse-once {
+  animation: pulsePlus 3s ease-in-out infinite;
+}
+
+/* Add to your cards */
+.card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -12px rgba(0, 0, 0, 0.2);
+}

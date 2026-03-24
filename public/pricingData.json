@@ -1,0 +1,80 @@
+{
+  "gym_membership_options": [
+    {
+      "id": 1,
+      "name": "Starter Pulse",
+      "pricing": {
+        "monthly": 29.99,
+        "annual": 299.99,
+        "setup_fee": 0
+      },
+      "features": [
+        "Access to main gym floor (5 AM - 11 PM)",
+        "Locker room access with towel service",
+        "2 group fitness classes per month",
+        "Mobile app access with basic workout tracking",
+        "Free parking"
+      ],
+      "more_features": {
+        "contract_length": "Month-to-month",
+        "freeze_option": true,
+        "freeze_limit_months": 2,
+        "guest_privileges": "1 guest pass per month",
+        "cancellation_notice": "30 days"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Pro Elite",
+      "pricing": {
+        "monthly": 59.99,
+        "annual": 599.99,
+        "setup_fee": 49.99
+      },
+      "features": [
+        "24/7 gym access",
+        "Unlimited group fitness classes (yoga, HIIT, spin)",
+        "Access to premium recovery zone (sauna, cold plunge, massage chairs)",
+        "1 complimentary personal training session per month",
+        "Access to all gym locations (5 locations)",
+        "Locker room with premium amenities (shampoo, razors, hair dryers)"
+      ],
+      "more_features": {
+        "contract_length": "12-month commitment",
+        "freeze_option": true,
+        "freeze_limit_months": 3,
+        "guest_privileges": "4 guest passes per month",
+        "cancellation_notice": "No fee after 12 months",
+        "family_discount": "10% off for second member"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Black Card",
+      "pricing": {
+        "monthly": 99.99,
+        "annual": 999.99,
+        "setup_fee": 0
+      },
+      "features": [
+        "24/7 VIP access with priority lane entry",
+        "Unlimited group fitness + signature small-group training",
+        "Full recovery suite (cryotherapy, infrared sauna, hydromassage, compression therapy)",
+        "Unlimited personal training sessions (2 per week included)",
+        "Access to all gym locations nationwide (25+ locations)",
+        "Dedicated VIP locker room with private showers and smart lockers",
+        "Nutrition coaching and quarterly body composition scans",
+        "Complimentary smoothie bar daily credit ($5/day)"
+      ],
+      "more_features": {
+        "contract_length": "Month-to-month with first 3 months minimum",
+        "freeze_option": true,
+        "freeze_limit_months": "Unlimited",
+        "guest_privileges": "Unlimited guests + 2 permanent family add-ons at 50% off",
+        "cancellation_notice": "14 days",
+        "exclusive_events": "Quarterly member mixers and fitness workshops",
+        "parking": "Valet parking included"
+      }
+    }
+  ]
+}
