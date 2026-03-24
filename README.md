@@ -2,7 +2,8 @@
 
 A modern gym membership management dashboard with pricing cards and interactive charts. Track membership growth, revenue, retention rates, and student performance all in one place.
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Gym+Membership+Dashboard)
+![Dashboard Preview](./src/assets/gym.avif)
+()
 
 ## ✨ Features
 
@@ -117,8 +118,9 @@ gym-membership-dashboard/
 └── vite.config.js
 
 
-🌐 Live Demo
-[![Live Demo](https://via.placeholder.com/200x50?text=Click+Here)](https://your-url.com)
+## 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/🚀_View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gym-membership-dashboard.vercel.app)
 
 
 Note: After deployment, replace the URL above with your actual live link.
@@ -166,7 +168,7 @@ GitHub: @djriad157764-creator
 
 Email: djriad157764@gmail.com
 
-Project Link: https://github.com/djriad157764-creator/gym-membership-dashboard
+Project Link: [https://gym-membership-dashboard.vercel.app/]
 
 🙏 Acknowledgments
 Recharts for amazing charting library
