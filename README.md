@@ -2,7 +2,7 @@
 
 A modern gym membership management dashboard with pricing cards and interactive charts. Track membership growth, revenue, retention rates, and student performance all in one place.
 
-![Dashboard Preview](./src/assets/gym.avif)
+![Dashboard Preview](https://raw.githubusercontent.com/djriad157764-creator/gym-membership-dashboard/main/src/assets/gym.avif)
 ()
 
 ## ✨ Features
@@ -118,9 +118,9 @@ gym-membership-dashboard/
 └── vite.config.js
 
 🌐 Live Demo
-https://img.shields.io/badge/%F0%9F%9A%80_View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white
+[![🚀 View Live Demo](https://img.shields.io/badge/%F0%9F%9A%80_View_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gym-membership-dashboard.vercel.app)
 
-Live URL: https://gym-membership-dashboard.vercel.app
+Live URL: [Click Here](https://gym-membership-dashboard.vercel.app)
 
 🤝 Contributing
 Contributions are welcome! Please follow these steps:
@@ -158,14 +158,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-👨‍💻 Author
-Md. Riad Shekh
 
-GitHub: @djriad157764-creator
+## 👨‍💻 Author
 
-Email: djriad157764@gmail.com
+**Md. Riad Shekh**
 
-Project Link: https://gym-membership-dashboard.vercel.app
+- 🌐 [Portfolio](https://gym-membership-dashboard.vercel.app)
+- 💻 [GitHub](https://github.com/djriad157764-creator)
+- 📧 [Email](mailto:djriad157764@gmail.com)
 
 🙏 Acknowledgments
 Recharts for amazing charting library
