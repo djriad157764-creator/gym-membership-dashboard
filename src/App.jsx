@@ -29,7 +29,7 @@ function App() {
         </Suspense>
 
         <GymChart></GymChart>
-        <ChartCard></ChartCard>
+        {/* <ChartCard></ChartCard> */}
       </main>
     </>
   );

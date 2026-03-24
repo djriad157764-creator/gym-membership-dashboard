@@ -10,7 +10,7 @@ const PricingOptions = ({ pricingPromise }) => {
   return (
     <div className="py-10 px-5  lg:w-[1200px]  mx-auto">
       <div className="">
-        <h1 className="lg:text-center animate-fade-up text-3xl lg:text-6xl font-bold text-black/80 mb-5">
+        <h1 className="text-center animate-fade-up text-3xl lg:text-6xl font-bold text-black/80 mb-5">
           Our MemberShip
         </h1>
         <div className="flex gap-4 justify-center my-4 w-fit mx-auto px-4 py-2 rounded-lg">
